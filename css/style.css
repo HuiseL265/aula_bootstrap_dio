@@ -1,0 +1,71 @@
+body{
+    font:20px, Arial, Helvetica, sans-serif;
+}
+
+section h3::after{
+    content:"";
+    margin:5px auto 0px auto;
+    display:block;
+    width:100px;
+    height:2px;
+    background-color:white;
+}
+
+.servicos h3::after{
+    background-color: black;
+}
+
+.navbar{
+    background-color:#eeeded;
+}
+
+.quem-somos{
+    background-color:#5c82ff;
+    color:white;
+}
+
+.quem-somos p{
+    width:400px;
+    margin:20px auto 0px auto;
+}
+
+.margin{
+    padding-bottom:50px;
+    padding-top:10px;
+}
+
+.parceiros{
+    background-color:rgb(179, 95, 228);
+    color:white;
+}
+
+.bg-footer{
+    background-color: black;
+    color:white;
+}
+
+.nav-conf{
+    width:370px;
+    flex-direction: row;
+}
+
+.nav-conf li{
+    margin-left:25px;
+}
+
+
+@media (max-width:1000px){
+    .nav-conf{
+        margin:0 auto;
+        text-align:center;
+        justify-content: space-evenly;
+    }
+
+    .nav-conf li{
+        margin-left:0;
+    }
+
+    #img-logo{
+        margin:0 auto;
+    }
+}
